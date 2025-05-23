@@ -1,17 +1,18 @@
 # Streamlit
-streamlit==1.33.0
+streamlit==1.32.2
 
 # Transformers & Torch
-transformers==4.39.3
-torch==2.2.1
+transformers==4.37.2
+torch==2.2.0
+huggingface-hub>=0.20.3
 
 # Embeddings & Vector Search
-sentence-transformers==2.2.2
+sentence-transformers==2.5.1
 faiss-cpu==1.7.4
 
 # LangChain
-langchain==0.1.14
-langchain-community==0.0.21
+langchain-core==0.1.27
+langchain-community==0.0.24
 
 # PDF Handling
 PyPDF2==3.0.1
@@ -22,3 +23,6 @@ numpy>=1.23.0
 pandas>=1.5.3
 regex
 tqdm
+
+# Environment Variables
+python-dotenv==1.0.1
