@@ -1,25 +1,24 @@
-# Streamlit app
+# Streamlit
 streamlit==1.33.0
 
-# Transformers pipeline (HuggingFace)
+# Transformers & Torch
 transformers==4.39.3
-torch>=1.13.0
+torch==2.2.1
 
-# Embeddings & vector search
+# Embeddings & Vector Search
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 
-# LangChain core utilities
+# LangChain
 langchain==0.1.14
 langchain-community==0.0.21
 
-# PDF parsing
+# PDF Handling
 PyPDF2==3.0.1
 pdfplumber==0.10.2
 
-# General dependencies
-numpy==1.20.2
-pandas==1.2.4
+# Utilities
+numpy>=1.23.0
+pandas>=1.5.3
 regex
 tqdm
-pickle5
